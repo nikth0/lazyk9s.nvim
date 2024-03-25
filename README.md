@@ -1,4 +1,4 @@
-# lazygit.nvim
+# lazyk9s.nvim
 
 Plugin for calling [k9s](https://github.com/derailed/k9s) from within neovim.
 
@@ -36,10 +36,10 @@ require("lazy").setup({
     	cmd = {
     		"LazyK9s",
     	},
-        -- optional for floating window border decoration
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-        },
+      -- optional for floating window border decoration
+      dependencies = {
+          "nvim-lua/plenary.nvim",
+      },
     },
 })
 ```
@@ -50,7 +50,8 @@ Call `:LazyK9s` to start a floating window with `ks9` in the current working dir
 And set up a mapping to call `:LazyK9s`:
 
 ```vim
-" setup mapping to call :LazyGit
+" setup mapping to call :LazyK9s
 nnoremap <silent> <leader>lk :LazyK9s<CR>
 ```
+
 # lazyk9s.nvim
