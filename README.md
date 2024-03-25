@@ -53,5 +53,3 @@ And set up a mapping to call `:LazyK9s`:
 " setup mapping to call :LazyK9s
 nnoremap <silent> <leader>lk :LazyK9s<CR>
 ```
-
-# lazyk9s.nvim
